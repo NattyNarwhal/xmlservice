@@ -57,6 +57,8 @@ $here_ibm_db2_file = "ibm_db2.ini-here";
 // *** pear cw tests ***
 // *** CW, toolkit tests use Alan's CWDEMO library (download php toolkit)
 $cwdb          = 'localhost';
+// xmlservice-cli binary.
+$xmlserviceCli = "/QOpenSys/pkgs/bin/xmlservice-cli"; // RPM supplied
 
 // *** driver includes, etc.
 require_once 'xmlservice_drivers.php';
